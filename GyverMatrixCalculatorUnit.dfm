@@ -1,11 +1,11 @@
 object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
-  Left = 201
-  Top = 130
+  Left = 207
+  Top = 69
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'GyverMatrix Calculator'
-  ClientHeight = 529
-  ClientWidth = 304
+  ClientHeight = 593
+  ClientWidth = 305
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,28 +18,28 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   TextHeight = 13
   object Label4: TLabel
     Left = 16
-    Top = 384
+    Top = 392
     Width = 101
     Height = 13
     Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1076#1080#1086#1076#1086#1074':'
   end
   object Label5: TLabel
     Left = 16
-    Top = 408
+    Top = 416
     Width = 181
     Height = 13
     Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1075#1080#1088#1083#1103#1085#1076' ('#1087#1086' 50 '#1076#1080#1086#1076#1086#1074'):'
   end
   object Label6: TLabel
     Left = 16
-    Top = 456
+    Top = 464
     Width = 203
     Height = 13
     Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1087#1072#1088' '#1088#1072#1079#1098#1077#1084#1086#1074' ('#1084#1072#1084#1072'/'#1087#1072#1087#1072'):'
   end
   object Label7: TLabel
     Left = 16
-    Top = 480
+    Top = 488
     Width = 121
     Height = 13
     Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1087#1088#1086#1074#1086#1076#1072', '#1084':'
@@ -81,10 +81,13 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object Label9: TLabel
     Left = 16
-    Top = 504
-    Width = 230
-    Height = 13
-    Caption = #1055#1086#1090#1088#1077#1073#1083#1103#1077#1084#1099#1081' '#1090#1086#1082' ('#1073#1077#1083#1099#1081', '#1103#1088#1082#1086#1089#1090#1100' 100%), '#1040':'
+    Top = 512
+    Width = 232
+    Height = 26
+    Caption = 
+      #1052#1072#1082#1089#1080#1084#1072#1083#1100#1085#1099#1081' '#1090#1086#1082' '#1080#1079' '#1088#1072#1089#1095#1077#1090#1072' 60 '#1084#1040' '#1085#1072' '#1076#1080#1086#1076' ('#1073#1077#1083#1099#1081' '#1088#1077#1078#1080#1084', '#1103#1088#1082#1086#1089#1090#1100' ' +
+      '100%), '#1040':'
+    WordWrap = True
   end
   object LabelPower: TLabel
     Left = 264
@@ -94,7 +97,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object Label11: TLabel
     Left = 16
-    Top = 432
+    Top = 440
     Width = 88
     Height = 13
     Caption = #1048#1079#1083#1080#1096#1077#1082' '#1076#1080#1086#1076#1086#1074':'
@@ -105,10 +108,26 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
     Width = 3
     Height = 13
   end
+  object Label16: TLabel
+    Left = 16
+    Top = 552
+    Width = 214
+    Height = 26
+    Caption = 
+      #1052#1072#1082#1089#1080#1084#1072#1083#1100#1085#1099#1081' '#1090#1086#1082' '#1087#1086' '#1080#1090#1086#1075#1072#1084' '#1088#1077#1072#1083#1100#1085#1099#1093' '#1079#1072#1084#1077#1088#1086#1074' ('#1073#1077#1083#1099#1081' '#1088#1077#1078#1080#1084', '#1103#1088#1082#1086#1089#1090 +
+      #1100' 100%), '#1040':'
+    WordWrap = True
+  end
+  object LabelPowerReal: TLabel
+    Left = 264
+    Top = 544
+    Width = 3
+    Height = 13
+  end
   object Button1: TButton
     Left = 16
     Top = 352
-    Width = 75
+    Width = 89
     Height = 25
     Caption = #1056#1072#1089#1089#1095#1080#1090#1072#1090#1100
     TabOrder = 0
@@ -174,7 +193,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
       OnClick = RadioButton100lmClick
     end
     object RadioButton96lm: TRadioButton
-      Left = 144
+      Left = 136
       Top = 88
       Width = 113
       Height = 17
@@ -183,7 +202,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
       OnClick = RadioButton96lmClick
     end
     object RadioButton60lm: TRadioButton
-      Left = 144
+      Left = 136
       Top = 72
       Width = 113
       Height = 17
@@ -192,7 +211,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
       OnClick = RadioButton60lmClick
     end
     object RadioButton12cm: TRadioButton
-      Left = 144
+      Left = 72
       Top = 32
       Width = 57
       Height = 17
@@ -201,13 +220,22 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
       OnClick = RadioButton12cmClick
     end
     object RadioButton144lm: TRadioButton
-      Left = 144
+      Left = 136
       Top = 104
       Width = 121
       Height = 17
       Caption = '144 leds/m (0.69 '#1089#1084')'
       TabOrder = 7
       OnClick = RadioButton144lmClick
+    end
+    object RadioButton10cm100: TRadioButton
+      Left = 136
+      Top = 32
+      Width = 113
+      Height = 17
+      Caption = '10 '#1089#1084' ('#1087#1086' 100 '#1096#1090')'
+      TabOrder = 8
+      OnClick = RadioButton10cm100Click
     end
   end
   object GroupBox2: TGroupBox
