@@ -270,7 +270,7 @@ begin
      begin
           matrixthreads := 100 div ledheight;               //считаем, сколько отрезков нужной длины получается из гирлянды в 100 диодов
           if (matrixthreads < ledwidth) then
-              threads := round(ledwidth / matrixthreads)
+              threads := ceil(ledwidth / matrixthreads)
           else
               threads := 1;
           diodesremainder := threads * 100 - diodes;

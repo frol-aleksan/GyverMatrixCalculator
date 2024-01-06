@@ -57,25 +57,25 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelDiode: TLabel
     Left = 264
-    Top = 384
+    Top = 392
     Width = 3
     Height = 13
   end
   object LabelThread: TLabel
     Left = 264
-    Top = 408
+    Top = 416
     Width = 3
     Height = 13
   end
   object LabelPlug: TLabel
     Left = 264
-    Top = 456
+    Top = 464
     Width = 3
     Height = 13
   end
   object LabelWire: TLabel
     Left = 264
-    Top = 480
+    Top = 488
     Width = 3
     Height = 13
   end
@@ -91,7 +91,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelPower: TLabel
     Left = 264
-    Top = 504
+    Top = 512
     Width = 3
     Height = 13
   end
@@ -104,7 +104,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelRemainder: TLabel
     Left = 264
-    Top = 432
+    Top = 440
     Width = 3
     Height = 13
   end
@@ -120,7 +120,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelPowerReal: TLabel
     Left = 264
-    Top = 544
+    Top = 552
     Width = 3
     Height = 13
   end
@@ -346,7 +346,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
     Caption = #1053#1072#1087#1088#1072#1074#1083#1077#1085#1080#1077' '#1083#1077#1085#1090
     TabOrder = 3
     object RadioButtonHorisontal: TRadioButton
-      Left = 144
+      Left = 136
       Top = 16
       Width = 113
       Height = 17

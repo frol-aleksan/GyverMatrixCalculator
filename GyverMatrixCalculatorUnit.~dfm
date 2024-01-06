@@ -57,25 +57,25 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelDiode: TLabel
     Left = 264
-    Top = 384
+    Top = 392
     Width = 3
     Height = 13
   end
   object LabelThread: TLabel
     Left = 264
-    Top = 408
+    Top = 416
     Width = 3
     Height = 13
   end
   object LabelPlug: TLabel
     Left = 264
-    Top = 456
+    Top = 464
     Width = 3
     Height = 13
   end
   object LabelWire: TLabel
     Left = 264
-    Top = 480
+    Top = 488
     Width = 3
     Height = 13
   end
@@ -91,7 +91,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelPower: TLabel
     Left = 264
-    Top = 504
+    Top = 512
     Width = 3
     Height = 13
   end
@@ -104,7 +104,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelRemainder: TLabel
     Left = 264
-    Top = 432
+    Top = 440
     Width = 3
     Height = 13
   end
@@ -120,7 +120,7 @@ object FormGyverMatrixCalculator: TFormGyverMatrixCalculator
   end
   object LabelPowerReal: TLabel
     Left = 264
-    Top = 544
+    Top = 552
     Width = 3
     Height = 13
   end
